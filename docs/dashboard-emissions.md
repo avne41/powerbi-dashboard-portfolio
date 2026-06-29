@@ -3,6 +3,10 @@
 ## Overview
 Key influencer analysis and decomposition tree exploration of CO₂ emissions by vehicle type and attributes.
 
+## Audience
+- **Business users**: Explore emission drivers and compare vehicle segments.
+- **Developers and team members**: Maintain the Power BI file, data source notes, and dashboard documentation.
+
 ## Skills Demonstrated
 - Decomposition trees for hierarchical data exploration
 - Key influencer visuals for factor analysis
@@ -15,7 +19,7 @@ Key influencer analysis and decomposition tree exploration of CO₂ emissions by
 - **Tables**: Vehicle Data, Emissions Data, Categories
 - **Last updated**: Not documented yet
 
-For guidance, see [Docs README](README.md#how-to-add-data-sources)
+For developer and team guidance, see [Docs README](README.md#how-to-add-data-sources)
 
 ## Key Insights
 - Primary drivers of CO₂ emissions

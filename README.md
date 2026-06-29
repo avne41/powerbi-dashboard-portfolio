@@ -1,6 +1,6 @@
 # Power BI Dashboard Portfolio
 
-This repository is a professional portfolio of Power BI dashboards built for reporting and business analysis scenarios. The project is intentionally structured and well-documented to serve as both a portfolio piece and a reference for dashboard development best practices.
+This repository is a professional portfolio of Power BI dashboards built for reporting and business analysis scenarios. It is organized for two audiences: business users who want to understand the dashboard insights, and developers or team members who need clear structure for maintaining the project.
 
 ## Quick Links
 - 📊 [View Dashboards Online](index.html) — Web-based portfolio landing page
@@ -8,8 +8,9 @@ This repository is a professional portfolio of Power BI dashboards built for rep
 
 ## Project goals
 - Organize Power BI reports in a clear, maintainable folder structure
-- Document the purpose, business value, and skills demonstrated by each dashboard
-- Make the portfolio easy to review for business users and portfolio reviewers
+- Document the purpose, business value, and skills demonstrated by each dashboard for business users
+- Keep dashboard files, documentation, and image assets easy for developers and the team to maintain
+- Make the portfolio easy to review for business users, developers, and team members
 
 ## Repository structure
 
@@ -35,6 +36,8 @@ powerbi-dashboard-portfolio/
 
 ## Skills Matrix
 
+This section helps business users, developers, and team members quickly see which Power BI features are demonstrated in each report.
+
 | Dashboard | KPIs | Slicers | Custom visuals | Decomposition tree | Key influencers | Maps | Q&A |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | Global Sales Performance | x | x |  |  |  |  |  |
@@ -43,6 +46,8 @@ powerbi-dashboard-portfolio/
 | World Population Analysis |  |  |  |  |  | x | x |
 
 ## Business Questions Answered
+
+These questions describe the type of decisions or analysis each dashboard supports for business users.
 
 | Dashboard | Example questions |
 |---|---|
@@ -68,7 +73,8 @@ When screenshots are ready, export one image per report from Power BI Desktop an
 ## Getting Help
 
 - **First time?** → Read [docs/README.md](docs/README.md) for a navigation guide
-- **Have questions?** → Check the individual dashboard documentation in [docs/](docs/)
+- **Business users** → Review the dashboard summaries and business questions in [docs/](docs/)
+- **Developers and team members** → Review the folder structure, dashboard files, and asset guidance
 
 ## Quick start
 1. **View the portfolio**: Open [index.html](index.html) in your browser for a web-based overview

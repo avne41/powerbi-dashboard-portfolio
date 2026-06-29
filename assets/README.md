@@ -1,6 +1,6 @@
 # Assets
 
-This folder is for image files related to the Power BI portfolio.
+This folder is for image files related to the Power BI portfolio. It separates business-user preview images from report images used by developers and the team.
 
 Use it for two types of images:
 

@@ -3,6 +3,10 @@
 ## Overview
 Sales performance analysis with KPI cards, category-based filtering, and comparative trend visuals.
 
+## Audience
+- **Business users**: Review sales performance, category trends, and regional differences.
+- **Developers and team members**: Maintain the Power BI file, data source notes, and dashboard documentation.
+
 ## Skills Demonstrated
 - Report layout design and visual hierarchy
 - KPI cards for metric highlighting
@@ -16,7 +20,7 @@ Sales performance analysis with KPI cards, category-based filtering, and compara
 - **Tables**: Sales, Products, Categories
 - **Last updated**: Not documented yet
 
-For guidance, see [Docs README](README.md#how-to-add-data-sources)
+For developer and team guidance, see [Docs README](README.md#how-to-add-data-sources)
 
 ## Key Metrics
 - Total Sales Revenue

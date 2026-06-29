@@ -2,6 +2,10 @@
 
 This repository contains a Power BI portfolio project built as four distinct dashboard reports. Each dashboard demonstrates a different business analytics scenario and Power BI visualization technique.
 
+## Audience
+- **Business users** can use this overview to understand the purpose and business focus of each dashboard.
+- **Developers and team members** can use this overview to understand how the dashboard collection is organized.
+
 ## Dashboards
 - Global Sales Performance Dashboard — sales performance and category-based analysis
   - Skills: report layout design, KPI cards, category filtering, trend analysis, and comparative visuals.
@@ -17,5 +21,5 @@ This repository contains a Power BI portfolio project built as four distinct das
   - Business focus: geographic comparison, demographic trends, and natural-language exploration.
 
 ## Recommended next steps
-- Create an `assets/` folder and add screenshots for each dashboard
-- Fill in data sources for each report in the corresponding documentation files
+- For business users: add dashboard screenshots in `assets/screenshots/` for easier previewing.
+- For developers and the team: fill in data sources for each report in the corresponding documentation files.

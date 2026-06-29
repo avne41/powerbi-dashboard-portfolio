@@ -1,6 +1,9 @@
 # Docs Index
 
-Welcome to the documentation folder. Here's a guide to all available resources:
+Welcome to the documentation folder. These pages are written for both business users and developers or team members.
+
+- Business users can use these docs to understand what each dashboard answers.
+- Developers and team members can use these docs to understand the report structure, data notes, and project organization.
 
 ## Dashboard Documentation
 - [**Dashboard Portfolio Overview**](overview.md) — High-level summary of all dashboards and their skills
@@ -16,7 +19,7 @@ Welcome to the documentation folder. Here's a guide to all available resources:
 
 ## How to Add Data Sources
 
-Each dashboard documentation file has a "Data Sources" section. To fill it in:
+This section is mainly for developers and team members maintaining the portfolio. Each dashboard documentation file has a "Data Sources" section. To fill it in:
 
 1. Open the corresponding `.pbix` file in Power BI Desktop
 2. In the **Model** view, check the table names and their sources

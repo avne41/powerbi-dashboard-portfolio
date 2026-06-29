@@ -3,6 +3,10 @@
 ## Overview
 Product category and color-based analysis using custom visuals and dynamic slicers for interactive exploration.
 
+## Audience
+- **Business users**: Explore category, color, and product segment performance.
+- **Developers and team members**: Maintain the Power BI file, custom visuals, data source notes, and dashboard documentation.
+
 ## Skills Demonstrated
 - Custom visual integration
 - Dynamic slicer setup and interactions
@@ -16,7 +20,7 @@ Product category and color-based analysis using custom visuals and dynamic slice
 - **Tables**: Products, Sales, Categories, Colors
 - **Last updated**: Not documented yet
 
-For guidance, see [Docs README](README.md#how-to-add-data-sources)
+For developer and team guidance, see [Docs README](README.md#how-to-add-data-sources)
 
 ## Key Dimensions
 - Product Category

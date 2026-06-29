@@ -3,6 +3,10 @@
 ## Overview
 Demographic and population trends analysis with mapping and natural language query support (Q&A visual).
 
+## Audience
+- **Business users**: Explore population trends, geographic patterns, and natural-language questions.
+- **Developers and team members**: Maintain the Power BI file, data source notes, and dashboard documentation.
+
 ## Skills Demonstrated
 - Map visuals for geographic analysis
 - Demographic data exploration
@@ -16,7 +20,7 @@ Demographic and population trends analysis with mapping and natural language que
 - **Tables**: Population, Demographics, Geography, Time Periods
 - **Last updated**: Not documented yet
 
-For guidance, see [Docs README](README.md#how-to-add-data-sources)
+For developer and team guidance, see [Docs README](README.md#how-to-add-data-sources)
 
 ## Key Metrics
 - Global population trends
