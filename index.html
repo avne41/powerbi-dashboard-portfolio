@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Power BI Dashboard Portfolio</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    .hero {
+      padding: 32px 0 24px;
+      border-bottom: 1px solid #334155;
+      margin-bottom: 24px;
+    }
+    .hero h1 { margin: 0 0 10px; font-size: 2rem; }
+    .hero p { margin: 0; color: var(--muted); max-width: 700px; }
+    .matrix {
+      margin: 0 0 28px;
+      padding: 16px 0 4px;
+      border-bottom: 1px solid #334155;
+    }
+    .matrix h2 {
+      margin: 0 0 12px;
+      font-size: 1rem;
+    }
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .chip {
+      border: 1px solid #334155;
+      border-radius: 999px;
+      color: var(--text);
+      padding: 6px 10px;
+      font-size: 0.86rem;
+      background: rgba(56,189,248,0.08);
+    }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+    .card {
+      background: var(--panel);
+      border: 1px solid #334155;
+      border-radius: 12px;
+      padding: 18px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+      cursor: pointer;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: var(--accent);
+    }
+    .thumb {
+      height: 140px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #1d4ed8, #38bdf8);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      font-size: 0.95rem;
+    }
+    h2 { margin-top: 0; font-size: 1.1rem; }
+    .muted { color: var(--muted); font-size: 0.95rem; }
+    .questions {
+      margin: 12px 0 0;
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    .questions li { margin: 4px 0; }
+    a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <h1>Power BI Dashboard Portfolio</h1>
+      <p>This portfolio showcases a collection of business intelligence dashboards focused on sales, emissions, and demographic insights.</p>
+    </section>
+
+    <section class="matrix" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills demonstrated</h2>
+      <div class="chips">
+        <span class="chip">KPI reporting</span>
+        <span class="chip">Slicers</span>
+        <span class="chip">Custom visuals</span>
+        <span class="chip">Decomposition tree</span>
+        <span class="chip">Key influencers</span>
+        <span class="chip">Maps</span>
+        <span class="chip">Power BI Q&A</span>
+      </div>
+    </section>
+
+    <section class="grid">
+      <a class="card" href="dashboards/global-sales-dashboard.pbix" download="global-sales-dashboard.pbix">
+        <div class="thumb">Sales Dashboard</div>
+        <h2>Global Sales Performance</h2>
+        <p class="muted">Sales performance analysis with KPI cards, charts, and slicers.</p>
+        <ul class="questions">
+          <li>Which categories drive sales?</li>
+          <li>Where do regional trends differ?</li>
+        </ul>
+      </a>
+      <a class="card" href="dashboards/emissions-analysis.pbix" download="emissions-analysis.pbix">
+        <div class="thumb">CO₂ Analysis</div>
+        <h2>CO₂ Emissions Insights</h2>
+        <p class="muted">Key influencers and decomposition tree analysis for vehicle emissions.</p>
+        <ul class="questions">
+          <li>Which attributes influence emissions?</li>
+          <li>How do segments break down?</li>
+        </ul>
+      </a>
+      <a class="card" href="dashboards/categories-analysis.pbix" download="categories-analysis.pbix">
+        <div class="thumb">Category Analysis</div>
+        <h2>Sales Categorical Analysis</h2>
+        <p class="muted">Category and color-based analysis with custom visual interactions.</p>
+        <ul class="questions">
+          <li>Which product segments stand out?</li>
+          <li>How do category filters shift performance?</li>
+        </ul>
+      </a>
+      <a class="card" href="dashboards/world-population.pbix" download="world-population.pbix">
+        <div class="thumb">Population</div>
+        <h2>World Population</h2>
+        <p class="muted">Demographic trends, mapping, and natural language analytics.</p>
+        <ul class="questions">
+          <li>Which regions show notable trends?</li>
+          <li>What can Q&A surface quickly?</li>
+        </ul>
+      </a>
+    </section>
+  </div>
+</body>
+</html>

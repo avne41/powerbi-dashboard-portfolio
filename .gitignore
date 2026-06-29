@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+tests/
+scripts/
+
+# Temporary and local files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Local Power BI extraction folders
+/tmp/
