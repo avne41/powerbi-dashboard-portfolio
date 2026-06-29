@@ -9,7 +9,7 @@ This repository is a professional portfolio of Power BI dashboards built for rep
 ## Project goals
 - Organize Power BI reports in a clear, maintainable folder structure
 - Document the purpose, business value, and skills demonstrated by each dashboard
-- Make the portfolio easy to review for hiring managers and recruiters
+- Make the portfolio easy to review for business users and portfolio reviewers
 
 ## Repository structure
 
@@ -19,6 +19,7 @@ powerbi-dashboard-portfolio/
 ├── docs/                    # Documentation (see docs/README.md for index)
 │   ├── overview.md         # Portfolio overview
 │   └── dashboard-*.md      # Individual dashboard documentation
+├── assets/                 # Screenshots and Power BI report image assets
 ├── index.html              # Web-based portfolio landing page
 ├── README.md               # This file
 ├── LICENSE                 # MIT License
@@ -52,14 +53,14 @@ powerbi-dashboard-portfolio/
 
 ## Screenshot Targets
 
-When screenshots are ready, create an `assets/` folder and export one image per report from Power BI Desktop:
+When screenshots are ready, export one image per report from Power BI Desktop and save it in `assets/screenshots/`:
 
 | Dashboard | Suggested screenshot path |
 |---|---|
-| Global Sales Performance | `assets/global-sales-dashboard.png` |
-| CO₂ Emissions Analysis | `assets/emissions-analysis.png` |
-| Sales Categorical Analysis | `assets/categories-analysis.png` |
-| World Population Analysis | `assets/world-population.png` |
+| Global Sales Performance | `assets/screenshots/global-sales-dashboard.png` |
+| CO₂ Emissions Analysis | `assets/screenshots/emissions-analysis.png` |
+| Sales Categorical Analysis | `assets/screenshots/categories-analysis.png` |
+| World Population Analysis | `assets/screenshots/world-population.png` |
 
 ## Requirements
 - Power BI Desktop is required to open and edit the `.pbix` files.
